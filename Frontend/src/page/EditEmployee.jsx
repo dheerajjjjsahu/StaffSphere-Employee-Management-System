@@ -22,7 +22,7 @@ function EditEmployee() {
         const token = localStorage.getItem("token");
 
         const response = await axios.get(
-          `http://https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
+          `https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -56,7 +56,7 @@ function EditEmployee() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
+        `https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
         {
           name,
           email,

@@ -51,7 +51,7 @@ Open the local URL shown in the terminal.
 
 ## API Documentation
 
-The API runs at `http://https://staffsphere-employee-management-system.onrender.com` by default. Set `PORT` to use a different port. All request and response bodies use JSON.
+The API runs at `https://staffsphere-employee-management-system.onrender.com` by default. Set `PORT` to use a different port. All request and response bodies use JSON.
 
 ### Health Check
 

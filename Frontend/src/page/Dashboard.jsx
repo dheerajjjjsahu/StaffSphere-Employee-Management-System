@@ -22,7 +22,7 @@ function Dashboard() {
         const token = localStorage.getItem("token");
 
         const response = await axios.get(
-          "http://https://staffsphere-employee-management-system.onrender.com/api/dashboard",
+          "https://staffsphere-employee-management-system.onrender.com/api/dashboard",
           {
             headers: {
               Authorization: `Bearer ${token}`,

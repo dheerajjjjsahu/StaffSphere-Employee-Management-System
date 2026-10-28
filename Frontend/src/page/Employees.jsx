@@ -15,7 +15,7 @@ function Employees() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://https://staffsphere-employee-management-system.onrender.com/api/employees",
+        "https://staffsphere-employee-management-system.onrender.com/api/employees",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -54,7 +54,7 @@ function Employees() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
+        `https://staffsphere-employee-management-system.onrender.com/api/employees/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

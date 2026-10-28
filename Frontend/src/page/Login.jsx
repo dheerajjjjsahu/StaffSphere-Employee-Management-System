@@ -17,7 +17,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "http://https://staffsphere-employee-management-system.onrender.com/api/auth/login",
+        "https://staffsphere-employee-management-system.onrender.com/api/auth/login",
         { email, password }
       );
 
