@@ -23,7 +23,7 @@ function AddEmployee() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/employees",
+        "http://https://staffsphere-employee-management-system.onrender.com/api/employees",
         {
           name,
           email,
